@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Satisfy&display=swap');
+
+body {
+    /*background-color: #bcbca9;*/
+    background-image: url(pexels-krivec-ales-547114.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#main {
+    text-align: center;
+    max-width: 50%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+:root {
+    --teal: rgba(110, 153, 191, 0.6); 
+    --grayish-blue: rgba(195, 210, 223, 0.6);
+}
+
+#title {
+    font-size: xx-large;
+}
+
+h1{
+    background-color: var(--grayish-blue);
+}
+h2{
+    background-color: var(--grayish-blue);
+}
+h3{
+    background-color: var(--grayish-blue);
+}
+
+#image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+div {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: medium;
+    display: block
+}
+section {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+blockquote {
+    background-color: var( --teal );
+    text-align: center;
+    font-size: large;
+    max-width: 500px;
+}
+
+.teal-background {
+    background-color: var(--teal);
+    margin-top: 0%;
+    width: 100%;
+}
+
+#ul {
+    background-color: var(--teal);
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
